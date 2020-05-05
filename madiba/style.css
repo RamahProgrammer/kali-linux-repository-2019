@@ -1,0 +1,66 @@
+header{
+	text-align: center;
+	background-image: url("picha/udom8.jpg");
+	height: 150px;
+
+}
+.nav{
+	border-radius: 15px;
+	border-style:groove; ;
+	border-color: black;
+
+	width: 180px;
+	height: 200px;
+	float: left;
+}
+body{
+	background-color:#ffffe6;
+}
+.content{
+	border: 3px;
+	border-style: groove;
+	border-color: black;
+	width: 800px;
+	border-radius: 15px;
+	float: left;
+	height: 200px;
+	margin-left: 10px;
+	text-align: center;
+}
+.news{
+border: 3px;
+	border-style: groove;
+	border-color: black;
+	width:245px;
+	border-radius: 15px;
+	float: left;
+	height: 200px;
+	margin-left: 10px;
+	text-align: center;
+
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width:100%;
+  }
+}
